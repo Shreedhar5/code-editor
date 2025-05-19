@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini Python Editor</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xterm/css/xterm.css" />
+</head>
+<body>
+  <h1>Mini Python Editor</h1>
+  <div id="editor" class="editor"></div>
+  <textarea id="input" class="input" placeholder="Enter input here..."></textarea>
+  <button id="runBtn">Run Code</button>
+  <div id="terminal" class="terminal"></div>
+
+  <!-- Monaco Editor loader -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.34.0/min/vs/loader.min.js"></script>
+  <!-- xterm.js -->
+  <script src="https://cdn.jsdelivr.net/npm/xterm/lib/xterm.js"></script>
+  <!-- Main script -->
+  <script src="script.js"></script>
+</body>
+</html>

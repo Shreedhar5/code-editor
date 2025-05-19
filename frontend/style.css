@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 0.5em 0;
+  }
+  
+  .editor {
+    flex: 1;
+  }
+  
+  .input {
+    height: 8vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    font-family: monospace;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px auto;
+    font-size: 1em;
+    display: block;
+  }
+  
+  .terminal {
+    flex: 0.7;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
